@@ -12,12 +12,14 @@
 		2C04C4ED22BAA35900A515F7 /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04C4EC22BAA35900A515F7 /* Playlist+Convenience.swift */; };
 		2C04C4EF22BAA46800A515F7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04C4EE22BAA46800A515F7 /* CoreDataStack.swift */; };
 		2C04C4F122BAA72900A515F7 /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04C4F022BAA72900A515F7 /* Song+Convenience.swift */; };
+		2C04C4F322BAAAC300A515F7 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04C4F222BAAAC300A515F7 /* PlaylistController.swift */; };
 		2C35737D22BA983900BFF8B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35737C22BA983900BFF8B2 /* AppDelegate.swift */; };
 		2C35738222BA983900BFF8B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C35738022BA983900BFF8B2 /* Main.storyboard */; };
 		2C35738522BA983900BFF8B2 /* PlaylistCoreData2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C35738322BA983900BFF8B2 /* PlaylistCoreData2.xcdatamodeld */; };
 		2C35738722BA983B00BFF8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C35738622BA983B00BFF8B2 /* Assets.xcassets */; };
 		2C35738A22BA983B00BFF8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C35738822BA983B00BFF8B2 /* LaunchScreen.storyboard */; };
 		2C35739822BA9C2200BFF8B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C35739722BA9C2200BFF8B2 /* Default-568h@2x.png */; };
+		2CAE457622BAB20800419B13 /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE457522BAB20800419B13 /* SongController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,7 @@
 		2C04C4EC22BAA35900A515F7 /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		2C04C4EE22BAA46800A515F7 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		2C04C4F022BAA72900A515F7 /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
+		2C04C4F222BAAAC300A515F7 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
 		2C35737922BA983900BFF8B2 /* PlaylistCoreData2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCoreData2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C35737C22BA983900BFF8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C35738122BA983900BFF8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		2C35738922BA983B00BFF8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C35738B22BA983B00BFF8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C35739722BA9C2200BFF8B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2CAE457522BAB20800419B13 /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 		2C35739522BA989F00BFF8B2 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C04C4F222BAAAC300A515F7 /* PlaylistController.swift */,
+				2CAE457522BAB20800419B13 /* SongController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -202,7 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAE457622BAB20800419B13 /* SongController.swift in Sources */,
 				2C04C4E922BA9D7100A515F7 /* PlaylistListTableViewController.swift in Sources */,
+				2C04C4F322BAAAC300A515F7 /* PlaylistController.swift in Sources */,
 				2C04C4ED22BAA35900A515F7 /* Playlist+Convenience.swift in Sources */,
 				2C35738522BA983900BFF8B2 /* PlaylistCoreData2.xcdatamodeld in Sources */,
 				2C04C4EF22BAA46800A515F7 /* CoreDataStack.swift in Sources */,
